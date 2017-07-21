@@ -1,0 +1,16 @@
+[21-Jul-2016 19:40:56 UTC] PHP Warning:  array_unshift() expects parameter 1 to be array, null given in /home1/autobea1/public_html/findmandarin4u/wp-includes/class-wp-xmlrpc-server.php on line 580
+[26-Aug-2016 17:50:27 UTC] PHP Warning:  array_unshift() expects parameter 1 to be array, null given in /home1/autobea1/public_html/findmandarin4u/wp-includes/class-wp-xmlrpc-server.php on line 580
+[05-Sep-2016 21:20:11 UTC] PHP Warning:  array_unshift() expects parameter 1 to be array, null given in /home1/autobea1/public_html/findmandarin4u/wp-includes/class-wp-xmlrpc-server.php on line 580
+[06-Nov-2016 16:44:34 UTC] WordPress database error Lost connection to MySQL server during query for query 
+CREATE TABLE IF NOT EXISTS `fm4u_huge_itslider_params`(
+ `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+ `name` varchar(50) 
+CHARACTER SET utf8 NOT NULL,
+  `title` varchar(200) CHARACTER SET utf8 NOT NULL,
+ `description` text CHARACTER SET utf8 NOT NULL,
+  `value` varchar(200) CHARACTER SET utf8 NOT NULL,
+  
+ PRIMARY KEY (`id`)
+ 
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=89  made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/slider-image/slider.php'), huge_it_slider_activate
+[20-Jun-2017 03:32:35 UTC] PHP Warning:  array_unshift() expects parameter 1 to be array, null given in /home1/autobea1/public_html/findmandarin4u/wp-includes/class-wp-xmlrpc-server.php on line 585
