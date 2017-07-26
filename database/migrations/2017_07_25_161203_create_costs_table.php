@@ -18,6 +18,7 @@ class CreateCostsTable extends Migration
             $table->integer('user_id');
             $table->string('item_name');
             $table->integer('item_price');
+            $table->boolean('necessary')->default(false);
             $table->timestamps();
         });
     }
