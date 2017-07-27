@@ -1,7 +1,7 @@
-@extends('layout')
+@extends('layout.main_layout')
 
 @section('title')
-<title>Fangye Lin's Homepage</title>
+<title>All Costs</title>
 @endsection
 
 @section('content')

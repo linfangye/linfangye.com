@@ -1,15 +1,15 @@
 @extends('layout.main_layout')
 
 @section('title')
-<title>Single Cost</title>
+<title>Single Post</title>
 @endsection
 
 @section('content')
 <div class="grid-x" id="mainDiv">
     <div class="cell">
 
-        <div v-for="(cost, key) in costs">
-            <span v-text="key + ':' + cost">
+        <div v-for="(po, key) in post">
+            <span v-text="key + ':' + po">
             </span>
         </div>
 
@@ -20,12 +20,12 @@
 @section('script')
 <script>
 
-    var cost = {!! json_encode($cost) !!};
+    var post = {!! json_encode($post) !!};
 
     new Vue({
         el: "#mainDiv",
         data: {
-            costs: cost
+            post: post
         }
     });
 </script>

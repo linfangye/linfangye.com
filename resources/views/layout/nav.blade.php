@@ -15,6 +15,9 @@
             <li class="menu-text">
                 <a href="/costs">All Monthly Costs</a>
             </li>
+            <li class="menu-text">
+                <a href="/posts">All Posts</a>
+            </li>
 
         </ul>
     </div>
