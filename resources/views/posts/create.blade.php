@@ -1,7 +1,7 @@
 @extends('layout.main_layout')
 
 @section('title')
-<title>Create Post</title>
+<title>Create New Post</title>
 @endsection
 
 @section('content')
@@ -9,7 +9,7 @@
     <div class="cell">
 
         <form>
-            <h1>Create a Post</h1>
+            <h1>Create New Post</h1>
 
             <hr>
 

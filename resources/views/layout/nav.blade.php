@@ -7,16 +7,13 @@
     <div class="top-bar-left">
         <ul class="dropdown menu" data-dropdown-menu>
             <li class="menu-text">
-                <a href="/">Fangye Lin's Home Page</a>
+                <a href="/">Home Page</a>
+            </li>
+            <li class="menu-text">
+                <a href="/posts">Blog</a>
             </li>
             <li class="menu-text">
                 <a href="/calender">Calender</a>
-            </li>
-            <li class="menu-text">
-                <a href="/costs">All Monthly Costs</a>
-            </li>
-            <li class="menu-text">
-                <a href="/posts">All Posts</a>
             </li>
 
         </ul>
