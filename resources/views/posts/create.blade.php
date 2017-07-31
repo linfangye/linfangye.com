@@ -49,11 +49,7 @@
                     var data = {title: this.title,
                                 body: this.body}
 
-                    axios.post('/posts', data)
-                        .then(function ()
-                        {
-                            window.location.href = "/posts";
-                        });
+                    axios.post('/posts', data);
                 }
             }
         }
